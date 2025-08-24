@@ -1,0 +1,55 @@
+/* General Styles */
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Side-by-side divs */
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-div, .right-div {
+    width: 45%;
+}
+
+/* h3 styling */
+h3 {
+    font-weight: 500;
+}
+
+/* Lists styling */
+ol {
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ul {
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+/* Links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Bottom div styling */
+.bottom-div {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
