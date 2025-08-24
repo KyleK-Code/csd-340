@@ -1,0 +1,72 @@
+/* 
+  Author: Kyle Klausen
+  File: Klausen_Mod2_2.css
+  Assignment: CSD 340 - Module 2.2 Building a Web Page Exercise, Part 2
+*/
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background-color: #fafafa;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background: #fff;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.4em;
+  margin: 0 0 1em 0;
+}
+
+h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.2em 0 0.4em 0;
+}
+
+h2 {
+  font-weight: 500;
+  text-align: left;
+  padding-top: 15px;
+  margin: 0 0 0.6em 0;
+}
+
+address {
+  text-align: center;
+  font-style: normal;
+}
+
+#bu-link {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #4F3674;
+  text-decoration: none;
+}
+
+#bu-link:hover {
+  text-decoration: underline;
+  background-color: #D6A800;
+}
+
+#bu-link:visited {
+  color: #6b4c9a; /* chosen visited style */
+}
+
+.sentence {
+  font-style: italic;
+}
+
+.intro {
+  text-indent: 2em;
+}
