@@ -1,0 +1,32 @@
+/* Kyle Klausen CSD 340 Landing Page Styles */
+
+#container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Arial, sans-serif;
+}
+
+/* Headers styling */
+h1, h2, h3, h4 {
+  background-color: #4F3674;
+  color: #ffffff;
+  border: 1px solid #D6A800;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Links styling */
+a {
+  color: #D6A800;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #4F3674;
+}
+
+a:visited {
+  color: #b39ddb;
+}
