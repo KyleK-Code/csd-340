@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bioSite Style Guide</title>
+  <style>
+    /* Color Palette */
+    :root {
+      --neon-yellow: #D6F700;
+      --black: #000000;
+      --dark-gray: #1C1C1C;
+      --white: #FFFFFF;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--dark-gray);
+      color: var(--white);
+      margin: 20px;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Oswald', sans-serif;
+      color: var(--black);
+    }
+
+    /* Color Swatches */
+    .swatch {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      border: 2px solid var(--black);
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      color: var(--black);
+    }
+
+    /* Buttons */
+    .button {
+      background-color: var(--neon-yellow);
+      color: var(--black);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: var(--black);
+      color: var(--neon-yellow);
+    }
+
+    /* Image */
+    img {
+      max-width: 200px;
+      border: 2px solid var(--black);
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    /* Back link */
+    .back-link {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--neon-yellow);
+      color: var(--black);
+      padding: 8px 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      background-color: var(--black);
+      color: var(--neon-yellow);
+    }
+  </style>
+</head>
+<body>
+  <h1>bioSite Style Guide</h1>
+
+  <h2>Color Palette</h2>
+  <div class="swatch" style="background-color: var(--neon-yellow);">#D6F700</div>
+  <div class="swatch" style="background-color: var(--black); color: white;">#000000</div>
+  <div class="swatch" style="background-color: var(--dark-gray); color: white;">#1C1C1C</div>
+  <div class="swatch" style="background-color: var(--white);">#FFFFFF</div>
+
+  <h2>Typography</h2>
+  <h1>Heading 1 - EXAMPLE</h1>
+  <h2>Heading 2 - EXAMPLE</h2>
+  <h3>Heading 3 - EXAMPLE</h3>
+  <p>Body text - This is an example of paragraph text.</p>
+
+  <h2>Buttons</h2>
+  <button class="button">Default Button</button>
+
+  <h2>Image Style</h2>
+  <img src="m80-logo.png" alt="M80 Logo Example">
+
+  <a href="index.html" class="back-link">Back to Landing Page</a>
+</body>
+</html>
