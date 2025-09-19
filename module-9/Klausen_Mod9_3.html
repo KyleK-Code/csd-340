@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Kyle Klausen
+  Assignment 9.3: JavaScript - Part 1
+-->
+<head>
+  <meta charset="UTF-8">
+  <title>CSD 340 Web Development with HTML and CSS</title>
+  <script>
+    // Declare variables for each span
+    var wordOne = "journey";
+    var wordTwo = "discovery";
+    var wordThree = "challenge";
+    var wordFour = "victory";
+  </script>
+</head>
+
+<body>
+  <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+  <p>
+    Life is often described as a great <span id="journey">_________</span>.  
+    Along the way, we meet new people, learn new skills, and face experiences that shape who we are.  
+    Each step teaches us something valuable that we carry forward.
+  </p>
+
+  <p>
+    The beauty of life is in the <span id="discovery">_________</span>.  
+    Every day brings something new—whether it’s a thought, a moment of joy, or a difficult lesson.  
+    These discoveries make the journey meaningful and keep us moving forward.
+  </p>
+
+  <p>
+    Of course, no story is complete without a <span id="challenge">_________</span>.  
+    Challenges test our patience and resilience, but they also remind us of our strength.  
+    When we rise to the moment, we often find ourselves closer to a well-earned <span id="victory">_________</span>.
+  </p>
+
+  <!-- Buttons to reveal the words -->
+  <p>
+    <button type="button" onclick="document.getElementById('journey').innerHTML = wordOne">Reveal Word 1</button><br><br>
+    <button type="button" onclick="document.getElementById('discovery').innerHTML = wordTwo">Reveal Word 2</button><br><br>
+    <button type="button" onclick="document.getElementById('challenge').innerHTML = wordThree">Reveal Word 3</button><br><br>
+    <button type="button" onclick="document.getElementById('victory').innerHTML = wordFour">Reveal Word 4</button>
+  </p>
+  <p>
+  <a href="../index.html">← Back to Landing Page</a>
+</p>
+</style>
+</body>
+</html>
